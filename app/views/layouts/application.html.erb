@@ -15,7 +15,7 @@
   <!-- logo and ad break -->
   <div class="row">
     <div class="medium-4 columns">
-			<%= image_tag("Logo.png") %>
+			<%= link_to image_tag("Logo.png"), root_url %>
     </div>
     <div class="medium-8 columns">
       <img src="http://placehold.it/900x175&text=Responsive Ads - ZURB Playground/333" alt="advertisement for deep fried Twinkies">
@@ -25,10 +25,6 @@
   
    <br>
 
-  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">Menu</div>
-  </div>
 
   <div class="top-bar" id="main-menu">
     <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
@@ -36,7 +32,7 @@
 				<a href="#">eBook</a>
 			</li>
 			<li>
-				<a href="#">Products</a>
+				<%= link_to "Products", products_path%>
 			</li>
 			<li>
 				<a href="#">Information</a>
