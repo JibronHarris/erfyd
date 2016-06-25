@@ -1,24 +1,58 @@
 <br>
 
 <div class="row">
-  <div class="medium-8 columns">
-    <p><img src="http://placehold.it/900x450&text=Promoted Article" alt="main article image"></p>
-  </div>
   <div class="medium-4 columns">
-    <p><img src="http://placehold.it/400x200&text=Other cool article" alt="article promo image" alt="advertisement for deep fried Twinkies"></p>
-    <p><img src="http://placehold.it/400x200&text=Other cool article" alt="article promo image"></p>
+		
+		<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+			<ul class="orbit-container">
+				<button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+					<button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+					<li class="orbit-slide is-active">
+						<%= image_tag("chap9.png")%>
+					</li>
+					<li class="orbit-slide">
+						<%= image_tag("chap11.png")%>
+					</li>
+					<li class="orbit-slide">
+						<%= image_tag("chap12.png")%>
+					</li>
+
+			</ul>
+		</div>
+		
+  </div>
+	
+	
+	<div class="medium-4 columns">
+    <p>
+			<%= image_tag("bookcover.png")%>
+		</p>
+  </div>
+	
+  <div class="medium-4 columns">
+    <p>
+		<img src="http://placehold.it/400x370&text=Look at me!" alt="image for article">
+		</p>
+  </div>
+	
+	
+</div>
+
+<hr>
+
+<div class="row small-up-1 medium-up-2 large-up-2">
+  <div class="column">
+    <p>The Eat Right for Your Dick pre-launch date is July 4th 2016 at a price of $2.99.  The retail price $4.99 starts September 5th 2016 offered on Amazon.com</p>
+  </div>
+	
+	<div class="column">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
   </div>
 </div>
 
 <hr>
 
-<div class="row column">
-  <h4 style="margin: 0;" class="text-center">Articles</h4>
-</div>
-
-<hr>
-
-<div class="row small-up-3 medium-up-4 large-up-5">
+<div class="row small-up-3 medium-up-4 large-up-4">
 
   <div class="column">
     <img src="http://placehold.it/400x370&text=Look at me!" alt="image for article">
@@ -36,9 +70,6 @@
     <img src="http://placehold.it/400x370&text=Look at me!" alt="image for article">
   </div>
 
-  <div class="column show-for-large">
-    <img src="http://placehold.it/400x370&text=Look at me!" alt="image for article">
-  </div>
 
 </div>
 
