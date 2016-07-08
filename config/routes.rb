@@ -2,6 +2,13 @@ Rails.application.routes.draw do
   root 'welcome#index'
 	
 	get "/products" => "products#index"
+	get "/trilogy" => "products#trilogy"
+	
+	get "/about" => "welcome#about"
+	get "/contact" => "welcome#contact"
+	
+	get "/members" => "member#index"
+	
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
