@@ -6,3 +6,366 @@ Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 3078ms (Views: 3078.2ms | ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4145.2ms)
+Completed 200 OK in 4160ms (Views: 4160.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 1.0ms
+
+Sent mail to J2Jibbi@gmail.com (13.0ms)
+Date: Fri, 08 Jul 2016 17:32:11 -0400
+From: cornholio@example.com
+To: J2Jibbi@gmail.com
+Message-ID: <57801bdb13765_20383121e0218bf@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 1.0ms
+
+Sent mail to J2Jibbi@gmail.com (13.0ms)
+Date: Fri, 08 Jul 2016 17:32:45 -0400
+From: cornholio@example.com
+To: J2Jibbi@gmail.com
+Message-ID: <57801bfd7c30e_338cfc21cc665cd@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (597.0ms)
+Completed 200 OK in 611ms (Views: 611.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (395.0ms)
+Completed 200 OK in 409ms (Views: 409.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (356.0ms)
+Completed 200 OK in 370ms (Views: 369.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (357.0ms)
+Completed 200 OK in 370ms (Views: 369.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 0.0ms
+
+Sent mail to J2Jibbi@gmail.com (11.0ms)
+Date: Fri, 08 Jul 2016 18:36:13 -0400
+From: cornholio@example.com
+To: J2Jibbi@gmail.com
+Message-ID: <57802add48def_8ec12aa1d8528fa@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 0.0ms
+
+Sent mail to J2Jibbi@gmail.com (12.0ms)
+Date: Fri, 08 Jul 2016 18:37:36 -0400
+From: cornholio@example.com
+To: J2Jibbi@gmail.com
+Message-ID: <57802b30b6ec4_179812421e060754@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (356.0ms)
+Completed 200 OK in 369ms (Views: 369.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (368.0ms)
+Completed 200 OK in 381ms (Views: 381.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (379.0ms)
+Completed 200 OK in 392ms (Views: 392.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+
+MessageMailer#message_me: processed outbound mail in 135.0ms
+
+Sent mail to J2Jibbi@gmail.com (12.0ms)
+Date: Fri, 08 Jul 2016 18:43:06 -0400
+From: cornholio@example.com
+To: J2Jibbi@gmail.com
+Message-ID: <57802c7a8da15_294012f21cc2253e@Jibron-PC.mail>
+Subject: hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+bai
+Redirected to http://test.host/messages/new
+Completed 302 Found in 163ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (364.0ms)
+Completed 200 OK in 376ms (Views: 376.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (388.0ms)
+Completed 200 OK in 401ms (Views: 401.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+
+MessageMailer#message_me: processed outbound mail in 151.0ms
+
+Sent mail to J2Jibbi@gmail.com (11.0ms)
+Date: Fri, 08 Jul 2016 18:43:38 -0400
+From: cornholio@example.com
+To: J2Jibbi@gmail.com
+Message-ID: <57802c9a9a877_169412221e875830@Jibron-PC.mail>
+Subject: hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+bai
+Redirected to http://test.host/messages/new
+Completed 302 Found in 182ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction

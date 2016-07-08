@@ -23836,3 +23836,1149 @@ Started GET "/assets/date-9a03afb835cd1ac7d85f0a4202d52e91be326484bd8d25eb007ee2
 
 
 Started GET "/assets/comingsoon-51f8dfa816ca5922172ff97c17645bc645191092378893932a08479851a32866.png" for ::1 at 2016-07-08 13:40:54 -0400
+  [1m[36m (5.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-07-08 17:18:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (751.0ms)
+Completed 200 OK in 1124ms (Views: 1111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 17:18:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 255ms (Views: 255.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.self-5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255.js?body=1" for ::1 at 2016-07-08 17:18:18 -0400
+
+
+Started GET "/assets/application.self-179f1316b8d60b3f35f8ac78ea370d3f34fcd66ca65dbc3509e81a2001bbce62.css?body=1" for ::1 at 2016-07-08 17:18:18 -0400
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 17:18:18 -0400
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/member.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/Logo-41332b290ca8a6ad94a69454c4597cba5bee687f9a464e14885ae161176b6c68.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/chap9-2d6f941309bcf9368aa165e7d8cf252a703f115836402aa0fcc9dc6fcc8e4046.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/chap11-c9443ba50f32639f1b4da9ea31d63ca928f2c43dd729ddb42ce8ce46181b38f9.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/bookcover-fa1e24e45ee13a92fe5a980f8192abe5b93617898cc234fae84d3fe61e50bb15.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/chap12-438b5d661bcd8bf66d41a94bcf0029f138041ab2f3c760ea17127b3b18244cc2.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/mantra-3a93dfd2e1ba2a11b09d35f24279166f82263c6d3eba34b1cfa67fafd865ebf1.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/chapters-4dda82a489c6829ff8eeddae76c557ea4a52143567cbc97def2a966c6db39445.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/date-9a03afb835cd1ac7d85f0a4202d52e91be326484bd8d25eb007ee20f7952b9c2.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/assets/comingsoon-51f8dfa816ca5922172ff97c17645bc645191092378893932a08479851a32866.png" for ::1 at 2016-07-08 17:18:19 -0400
+
+
+Started GET "/contact" for ::1 at 2016-07-08 17:18:23 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 218ms (Views: 215.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 18:45:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (366.0ms)
+Completed 200 OK in 633ms (Views: 620.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 18:45:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 186ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2016-07-08 18:45:08 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 238ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 18:45:20 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ipJs/GUL4UYgxv8GG7lCdWFXWeRab8aW3Uv6ROZvllIwJK35oVd/IdYP3a7is+di9tVPxzdVbVZDUiwiuQYk0g==", "message"=>{"name"=>"Jibron Harris", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"123 ABC"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 163.0ms
+
+Sent mail to J2Jibbi@gmail.com (2007.1ms)
+Date: Fri, 08 Jul 2016 18:45:20 -0400
+From: Jibron.Harris@gmail.com
+To: J2Jibbi@gmail.com
+Message-ID: <57802d00deda1_48832ebac839767@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+123 ABC
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 2187ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-07-08 18:45:22 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 174ms (Views: 174.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trilogy" for ::1 at 2016-07-08 18:45:27 -0400
+Processing by ProductsController#trilogy as HTML
+  Rendered products/trilogy.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 187ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 18:45:29 -0400
+Processing by WelcomeController#index as HTML
+  Parameters: {"authenticity_token"=>"7XPldd1HNLMRiZOSVYp5hz1PoGFrUqNxjbc4s7sRCrRXxSRwGRuq1OdAsTqsgNyQqs22QgZoCLETru7V5Hi4NA=="}
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 171ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 18:54:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (373.0ms)
+Completed 200 OK in 642ms (Views: 630.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/application.self-179f1316b8d60b3f35f8ac78ea370d3f34fcd66ca65dbc3509e81a2001bbce62.css?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.accordionMenu.self-6a75eb2b3768268d8ec00fc703ea3752f847738031a2614ce3ab5e4bbb9882dd.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.core.self-f55f82f1d32e31421cdb346360219495e02cb256a9235560ae847258f51ded3a.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.abide.self-fbc98127620ee01eaa2881e128f8448984eecf2eaf9fd8cc40b020ad7e9f2bd3.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.drilldown.self-11995b03e1b847772717a9123dc61fb32511459cccc6b8bc816b29e6739c3555.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.accordion.self-6c28f3f91f10621dea9006b993acf28cda9ea59c4e962048fee0e94588b696bb.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.dropdown.self-f384376d246673d8cc9e59e8a1e0655d1ac164ebd79ed62938bb665b8e98fda0.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.equalizer.self-20c80813228b7707630bb8e9b79d9e9e95bc08793fd7f7c0bb4d1a8e1abba874.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.dropdownMenu.self-d58c8deb698da27cd9f2df0dd6bef68b289948015c0eb1f1734e601754b77a22.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.interchange.self-8098699bc5e479e34a597c857ca10cf84217780d16b09b4be350ec42d7c3ba85.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.magellan.self-185cddbb3ea900a8b64ad9482999414820039c72b88ac73ce4062e26c2fcb51f.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.offcanvas.self-43878eed51fe559619ff3c62e266b58335e0cd40bc765ede9bb5c61a5e25625d.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.orbit.self-3790b70d486b6233de7bf36256a99b4470bbf5bab8d5cdba23038a96bed7c426.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.responsiveMenu.self-04daa3af5d3c617fa7d588b45b56abd62539f5fde28756c7b4705de2aa10c4fd.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.responsiveToggle.self-2b01f8c5e2bfe4eeaf7b15dd94962ef957112c455f4dc3abcf5e41e4c98b5b91.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.reveal.self-3b377de155fe3f888dcbb074b9017ed4e19c3ef995e13eea42b10839dd9756f6.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.slider.self-89883a154b8e68187e9465e5470bf26d54b48a4a69de4636afbb38953ee41ea6.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.sticky.self-8e0aa578f0015adbf99c14d1bb8464da751951e2c6e2923c2395ceba99c28bac.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.tabs.self-891f2cfe78a15ab6d129ae1bdcd83bb8c344b5677446700c8329442081eddddf.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.toggler.self-e503f9a635124ad4578a03dc24e47ac4cdb922a60bac8c9c99d024da00b0bd52.js?body=1" for ::1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.tooltip.self-4cf167bdbe826668ee0d73e6e30da8aaba252c73084db7b005923d5cd102d11e.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:57 -0400
+
+
+Started GET "/assets/foundation.util.box.self-789413a9ae946f5aee2709ac5e1ad5c9a7780fb4e16b46efe3572f22a0ea6b4d.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.keyboard.self-cf209dc0383f29cb576393bbdee52dbbd819837d6430a35afb4a4703770972f9.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-931eb6f96f60670ad0ebcb0a6d7bed0cced317a2059749343b094c4d72098b6c.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.nest.self-c9876586f80b068aea0d01390583424a28fa305c450e12a49bb301dcc686d1a0.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.motion.self-13d4248460aba53c0fd52e1ec0d5cb41c317b1c4d974bc5d905c9976dc9ef218.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-68c67c1b0b4f2e2cb7f2af57124f38f54b749efed9f1bebc44677dc27abf7864.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.touch.self-e26387c8ba249a8e90745647603562023cd1932c720ddf72407dc7a489ecb893.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.util.triggers.self-71a2360cfe56c89eb46e0776c3d04601a8cce01d9e1098b808375eecc4b2418c.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/foundation.self-5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/member.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/bookcover-fa1e24e45ee13a92fe5a980f8192abe5b93617898cc234fae84d3fe61e50bb15.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/chap9-2d6f941309bcf9368aa165e7d8cf252a703f115836402aa0fcc9dc6fcc8e4046.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/chap11-c9443ba50f32639f1b4da9ea31d63ca928f2c43dd729ddb42ce8ce46181b38f9.png" for 127.0.0.1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/chap12-438b5d661bcd8bf66d41a94bcf0029f138041ab2f3c760ea17127b3b18244cc2.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/mantra-3a93dfd2e1ba2a11b09d35f24279166f82263c6d3eba34b1cfa67fafd865ebf1.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/chapters-4dda82a489c6829ff8eeddae76c557ea4a52143567cbc97def2a966c6db39445.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/comingsoon-51f8dfa816ca5922172ff97c17645bc645191092378893932a08479851a32866.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/date-9a03afb835cd1ac7d85f0a4202d52e91be326484bd8d25eb007ee20f7952b9c2.png" for ::1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/assets/Logo-41332b290ca8a6ad94a69454c4597cba5bee687f9a464e14885ae161176b6c68.png" for 127.0.0.1 at 2016-07-08 18:54:58 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-07-08 18:55:00 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 225ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2016-07-08 18:55:17 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qmGzvCy1E2G2prl/pcQ6pkIi4deMftvgxpk7a5hbjmEQ13K56OmNBkBvm9dczp+x1aD39OFEcCBYgO0NxzI84Q==", "message"=>{"name"=>"Jibron Harris", "email"=>"J2Jibbi@gmail.com", "subject"=>"Test", "content"=>"Test"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 167.0ms
+
+Sent mail to J2Jibbi@gmail.com (2011.1ms)
+Date: Fri, 08 Jul 2016 18:55:17 -0400
+From: J2Jibbi@gmail.com
+To: J2Jibbi@gmail.com
+Message-ID: <57802f55527fa_320c32b6f442468b@Jibron-PC.mail>
+Subject: Test
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 2196ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2016-07-08 18:55:19 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 171ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 18:57:20 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oLZMHLIsIsY3nmcPJmniOlJDw6n+/REhTKKWcdZ8JEsaAI0ZdnC8ocFXRaffY0ctxcHVipPHuuHSu0AXiRWWyw==", "message"=>{"name"=>"Testy Tester", "email"=>"J2Jibbi@gmail.com", "subject"=>"Testing", "content"=>"test\r\nkhgjfg\r\n\r\nhgjghjk"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 1.0ms
+
+Sent mail to jibron.harris@gmail.com (1997.1ms)
+Date: Fri, 08 Jul 2016 18:57:20 -0400
+From: J2Jibbi@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <57802fd054376_320c61abc50247d6@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+test
+khgjfg
+
+hgjghjk
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 2022ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 18:57:22 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oLZMHLIsIsY3nmcPJmniOlJDw6n+/REhTKKWcdZ8JEsaAI0ZdnC8ocFXRaffY0ctxcHVipPHuuHSu0AXiRWWyw==", "message"=>{"name"=>"Testy Tester", "email"=>"J2Jibbi@gmail.com", "subject"=>"Testing", "content"=>"test\r\nkhgjfg\r\n\r\nhgjghjk"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 1.0ms
+
+Sent mail to jibron.harris@gmail.com (2004.1ms)
+Date: Fri, 08 Jul 2016 18:57:22 -0400
+From: J2Jibbi@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <57802fd256ee1_320c61ae54824857@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+test
+khgjfg
+
+hgjghjk
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 2010ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-07-08 18:57:24 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 189ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2016-07-08 19:04:01 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 649ms (Views: 634.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.accordionMenu.self-6a75eb2b3768268d8ec00fc703ea3752f847738031a2614ce3ab5e4bbb9882dd.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.core.self-f55f82f1d32e31421cdb346360219495e02cb256a9235560ae847258f51ded3a.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/application.self-179f1316b8d60b3f35f8ac78ea370d3f34fcd66ca65dbc3509e81a2001bbce62.css?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.accordion.self-6c28f3f91f10621dea9006b993acf28cda9ea59c4e962048fee0e94588b696bb.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.abide.self-fbc98127620ee01eaa2881e128f8448984eecf2eaf9fd8cc40b020ad7e9f2bd3.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.drilldown.self-11995b03e1b847772717a9123dc61fb32511459cccc6b8bc816b29e6739c3555.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.dropdown.self-f384376d246673d8cc9e59e8a1e0655d1ac164ebd79ed62938bb665b8e98fda0.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.dropdownMenu.self-d58c8deb698da27cd9f2df0dd6bef68b289948015c0eb1f1734e601754b77a22.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.interchange.self-8098699bc5e479e34a597c857ca10cf84217780d16b09b4be350ec42d7c3ba85.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.equalizer.self-20c80813228b7707630bb8e9b79d9e9e95bc08793fd7f7c0bb4d1a8e1abba874.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.magellan.self-185cddbb3ea900a8b64ad9482999414820039c72b88ac73ce4062e26c2fcb51f.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.offcanvas.self-43878eed51fe559619ff3c62e266b58335e0cd40bc765ede9bb5c61a5e25625d.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.orbit.self-3790b70d486b6233de7bf36256a99b4470bbf5bab8d5cdba23038a96bed7c426.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.responsiveMenu.self-04daa3af5d3c617fa7d588b45b56abd62539f5fde28756c7b4705de2aa10c4fd.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.responsiveToggle.self-2b01f8c5e2bfe4eeaf7b15dd94962ef957112c455f4dc3abcf5e41e4c98b5b91.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.reveal.self-3b377de155fe3f888dcbb074b9017ed4e19c3ef995e13eea42b10839dd9756f6.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.slider.self-89883a154b8e68187e9465e5470bf26d54b48a4a69de4636afbb38953ee41ea6.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.sticky.self-8e0aa578f0015adbf99c14d1bb8464da751951e2c6e2923c2395ceba99c28bac.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.tabs.self-891f2cfe78a15ab6d129ae1bdcd83bb8c344b5677446700c8329442081eddddf.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.toggler.self-e503f9a635124ad4578a03dc24e47ac4cdb922a60bac8c9c99d024da00b0bd52.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.tooltip.self-4cf167bdbe826668ee0d73e6e30da8aaba252c73084db7b005923d5cd102d11e.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.box.self-789413a9ae946f5aee2709ac5e1ad5c9a7780fb4e16b46efe3572f22a0ea6b4d.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.keyboard.self-cf209dc0383f29cb576393bbdee52dbbd819837d6430a35afb4a4703770972f9.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-931eb6f96f60670ad0ebcb0a6d7bed0cced317a2059749343b094c4d72098b6c.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.motion.self-13d4248460aba53c0fd52e1ec0d5cb41c317b1c4d974bc5d905c9976dc9ef218.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.nest.self-c9876586f80b068aea0d01390583424a28fa305c450e12a49bb301dcc686d1a0.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-68c67c1b0b4f2e2cb7f2af57124f38f54b749efed9f1bebc44677dc27abf7864.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.touch.self-e26387c8ba249a8e90745647603562023cd1932c720ddf72407dc7a489ecb893.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.util.triggers.self-71a2360cfe56c89eb46e0776c3d04601a8cce01d9e1098b808375eecc4b2418c.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/foundation.self-5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/member.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/assets/Logo-41332b290ca8a6ad94a69454c4597cba5bee687f9a464e14885ae161176b6c68.png" for 127.0.0.1 at 2016-07-08 19:04:02 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-07-08 19:04:03 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 180ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2016-07-08 19:04:17 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/QMXcD1HuGwsTYwhubrJNGaf84fdZB9kwvp0uwQcvQhHtdZ1+RsmC9qErolAsGwj8R3lpLBetKRc46LdW3UPiA==", "message"=>{"name"=>"Testy Tester", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"test\r\njk,hkhj"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 198.0ms
+
+Sent mail to jibron.harris@gmail.com (2009.1ms)
+Date: Fri, 08 Jul 2016 19:04:17 -0400
+From: Jibron.Harris@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <578031718bd8e_337833a538444566@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+test
+jk,hkhj
+Completed 500 Internal Server Error in 2225ms (ActiveRecord: 0.0ms)
+
+Errno::ECONNREFUSED (No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 25):
+  app/controllers/messages_controller.rb:11:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (59.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 19:07:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (395.0ms)
+Completed 200 OK in 654ms (Views: 642.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2016-07-08 19:07:18 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 202ms (Views: 198.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 19:07:28 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZxdWCuQaybcH3+tY76Fao94GMIScTgN2SD54/K48N1bdoZcPIEZX0PEWyfAWq/+0SYQmp/F0qLbWJ66a8VWF1g==", "message"=>{"name"=>"Testing", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"test\r\nfgdgd"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 165.0ms
+
+Sent mail to jibron.harris@gmail.com (2016.1ms)
+Date: Fri, 08 Jul 2016 19:07:28 -0400
+From: Jibron.Harris@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <57803230e6690_27ec339b40c936b6@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+test
+fgdgd
+Completed 500 Internal Server Error in 2202ms (ActiveRecord: 0.0ms)
+
+Errno::ECONNREFUSED (No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 25):
+  app/controllers/messages_controller.rb:11:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (59.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 19:07:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (385.0ms)
+Completed 200 OK in 670ms (Views: 657.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.accordion.self-6c28f3f91f10621dea9006b993acf28cda9ea59c4e962048fee0e94588b696bb.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.abide.self-fbc98127620ee01eaa2881e128f8448984eecf2eaf9fd8cc40b020ad7e9f2bd3.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.core.self-f55f82f1d32e31421cdb346360219495e02cb256a9235560ae847258f51ded3a.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/application.self-179f1316b8d60b3f35f8ac78ea370d3f34fcd66ca65dbc3509e81a2001bbce62.css?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.drilldown.self-11995b03e1b847772717a9123dc61fb32511459cccc6b8bc816b29e6739c3555.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.accordionMenu.self-6a75eb2b3768268d8ec00fc703ea3752f847738031a2614ce3ab5e4bbb9882dd.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.dropdown.self-f384376d246673d8cc9e59e8a1e0655d1ac164ebd79ed62938bb665b8e98fda0.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.dropdownMenu.self-d58c8deb698da27cd9f2df0dd6bef68b289948015c0eb1f1734e601754b77a22.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.equalizer.self-20c80813228b7707630bb8e9b79d9e9e95bc08793fd7f7c0bb4d1a8e1abba874.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.interchange.self-8098699bc5e479e34a597c857ca10cf84217780d16b09b4be350ec42d7c3ba85.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.magellan.self-185cddbb3ea900a8b64ad9482999414820039c72b88ac73ce4062e26c2fcb51f.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.offcanvas.self-43878eed51fe559619ff3c62e266b58335e0cd40bc765ede9bb5c61a5e25625d.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.orbit.self-3790b70d486b6233de7bf36256a99b4470bbf5bab8d5cdba23038a96bed7c426.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.responsiveMenu.self-04daa3af5d3c617fa7d588b45b56abd62539f5fde28756c7b4705de2aa10c4fd.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.reveal.self-3b377de155fe3f888dcbb074b9017ed4e19c3ef995e13eea42b10839dd9756f6.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.responsiveToggle.self-2b01f8c5e2bfe4eeaf7b15dd94962ef957112c455f4dc3abcf5e41e4c98b5b91.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.slider.self-89883a154b8e68187e9465e5470bf26d54b48a4a69de4636afbb38953ee41ea6.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.sticky.self-8e0aa578f0015adbf99c14d1bb8464da751951e2c6e2923c2395ceba99c28bac.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.tabs.self-891f2cfe78a15ab6d129ae1bdcd83bb8c344b5677446700c8329442081eddddf.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.tooltip.self-4cf167bdbe826668ee0d73e6e30da8aaba252c73084db7b005923d5cd102d11e.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.toggler.self-e503f9a635124ad4578a03dc24e47ac4cdb922a60bac8c9c99d024da00b0bd52.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.box.self-789413a9ae946f5aee2709ac5e1ad5c9a7780fb4e16b46efe3572f22a0ea6b4d.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.keyboard.self-cf209dc0383f29cb576393bbdee52dbbd819837d6430a35afb4a4703770972f9.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-931eb6f96f60670ad0ebcb0a6d7bed0cced317a2059749343b094c4d72098b6c.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.nest.self-c9876586f80b068aea0d01390583424a28fa305c450e12a49bb301dcc686d1a0.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.motion.self-13d4248460aba53c0fd52e1ec0d5cb41c317b1c4d974bc5d905c9976dc9ef218.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-68c67c1b0b4f2e2cb7f2af57124f38f54b749efed9f1bebc44677dc27abf7864.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.touch.self-e26387c8ba249a8e90745647603562023cd1932c720ddf72407dc7a489ecb893.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.util.triggers.self-71a2360cfe56c89eb46e0776c3d04601a8cce01d9e1098b808375eecc4b2418c.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-07-08 19:07:55 -0400
+
+
+Started GET "/assets/foundation.self-5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255.js?body=1" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/member.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/bookcover-fa1e24e45ee13a92fe5a980f8192abe5b93617898cc234fae84d3fe61e50bb15.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/chap9-2d6f941309bcf9368aa165e7d8cf252a703f115836402aa0fcc9dc6fcc8e4046.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/chap11-c9443ba50f32639f1b4da9ea31d63ca928f2c43dd729ddb42ce8ce46181b38f9.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/chap12-438b5d661bcd8bf66d41a94bcf0029f138041ab2f3c760ea17127b3b18244cc2.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/mantra-3a93dfd2e1ba2a11b09d35f24279166f82263c6d3eba34b1cfa67fafd865ebf1.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/chapters-4dda82a489c6829ff8eeddae76c557ea4a52143567cbc97def2a966c6db39445.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/date-9a03afb835cd1ac7d85f0a4202d52e91be326484bd8d25eb007ee20f7952b9c2.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/comingsoon-51f8dfa816ca5922172ff97c17645bc645191092378893932a08479851a32866.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/assets/Logo-41332b290ca8a6ad94a69454c4597cba5bee687f9a464e14885ae161176b6c68.png" for ::1 at 2016-07-08 19:07:56 -0400
+
+
+Started GET "/contact" for ::1 at 2016-07-08 19:07:58 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 241ms (Views: 237.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 19:08:07 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J/3uEH7ipyQ0pUQhZF0Lb+S5iF60HC+Hsfl7q9ft2CadSy8Vur45Q8JsZomdV654czuefdkmhEcv4K3NiIRqpg==", "message"=>{"name"=>"Jibron Harris", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"tesatdsf"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 167.0ms
+
+Sent mail to jibron.harris@gmail.com (2007.1ms)
+Date: Fri, 08 Jul 2016 19:08:07 -0400
+From: Jibron.Harris@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <578032578a2d1_408326f0d03158f@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+tesatdsf
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 2192ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-07-08 19:08:09 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 167ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 19:08:22 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QW8LRnBX/7lzHL4UjWs/qJEF7P2zmOGjoyxAHul/OTD72cpDtAth3oXVnLx0YZq/Bof63t6iSmM9NZZ4thaLsA==", "message"=>{"name"=>"Jibron Harris", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"test\r\n"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 1.0ms
+
+Sent mail to jibron.harris@gmail.com (1998.1ms)
+Date: Fri, 08 Jul 2016 19:08:22 -0400
+From: Jibron.Harris@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <5780326640299_408326f0d0316af@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+test
+
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 2003ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-07-08 19:08:24 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 203ms (Views: 202.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 19:08:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (360.0ms)
+Completed 200 OK in 622ms (Views: 611.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.accordion.self-6c28f3f91f10621dea9006b993acf28cda9ea59c4e962048fee0e94588b696bb.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.abide.self-fbc98127620ee01eaa2881e128f8448984eecf2eaf9fd8cc40b020ad7e9f2bd3.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.core.self-f55f82f1d32e31421cdb346360219495e02cb256a9235560ae847258f51ded3a.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/application.self-179f1316b8d60b3f35f8ac78ea370d3f34fcd66ca65dbc3509e81a2001bbce62.css?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.drilldown.self-11995b03e1b847772717a9123dc61fb32511459cccc6b8bc816b29e6739c3555.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.accordionMenu.self-6a75eb2b3768268d8ec00fc703ea3752f847738031a2614ce3ab5e4bbb9882dd.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.dropdown.self-f384376d246673d8cc9e59e8a1e0655d1ac164ebd79ed62938bb665b8e98fda0.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.dropdownMenu.self-d58c8deb698da27cd9f2df0dd6bef68b289948015c0eb1f1734e601754b77a22.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.equalizer.self-20c80813228b7707630bb8e9b79d9e9e95bc08793fd7f7c0bb4d1a8e1abba874.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.interchange.self-8098699bc5e479e34a597c857ca10cf84217780d16b09b4be350ec42d7c3ba85.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.magellan.self-185cddbb3ea900a8b64ad9482999414820039c72b88ac73ce4062e26c2fcb51f.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.offcanvas.self-43878eed51fe559619ff3c62e266b58335e0cd40bc765ede9bb5c61a5e25625d.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.orbit.self-3790b70d486b6233de7bf36256a99b4470bbf5bab8d5cdba23038a96bed7c426.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.responsiveToggle.self-2b01f8c5e2bfe4eeaf7b15dd94962ef957112c455f4dc3abcf5e41e4c98b5b91.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.responsiveMenu.self-04daa3af5d3c617fa7d588b45b56abd62539f5fde28756c7b4705de2aa10c4fd.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.reveal.self-3b377de155fe3f888dcbb074b9017ed4e19c3ef995e13eea42b10839dd9756f6.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.slider.self-89883a154b8e68187e9465e5470bf26d54b48a4a69de4636afbb38953ee41ea6.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.sticky.self-8e0aa578f0015adbf99c14d1bb8464da751951e2c6e2923c2395ceba99c28bac.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.toggler.self-e503f9a635124ad4578a03dc24e47ac4cdb922a60bac8c9c99d024da00b0bd52.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.tabs.self-891f2cfe78a15ab6d129ae1bdcd83bb8c344b5677446700c8329442081eddddf.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.tooltip.self-4cf167bdbe826668ee0d73e6e30da8aaba252c73084db7b005923d5cd102d11e.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.box.self-789413a9ae946f5aee2709ac5e1ad5c9a7780fb4e16b46efe3572f22a0ea6b4d.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.keyboard.self-cf209dc0383f29cb576393bbdee52dbbd819837d6430a35afb4a4703770972f9.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-931eb6f96f60670ad0ebcb0a6d7bed0cced317a2059749343b094c4d72098b6c.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.nest.self-c9876586f80b068aea0d01390583424a28fa305c450e12a49bb301dcc686d1a0.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.motion.self-13d4248460aba53c0fd52e1ec0d5cb41c317b1c4d974bc5d905c9976dc9ef218.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-68c67c1b0b4f2e2cb7f2af57124f38f54b749efed9f1bebc44677dc27abf7864.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.touch.self-e26387c8ba249a8e90745647603562023cd1932c720ddf72407dc7a489ecb893.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.util.triggers.self-71a2360cfe56c89eb46e0776c3d04601a8cce01d9e1098b808375eecc4b2418c.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/foundation.self-5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/member.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/chap9-2d6f941309bcf9368aa165e7d8cf252a703f115836402aa0fcc9dc6fcc8e4046.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/bookcover-fa1e24e45ee13a92fe5a980f8192abe5b93617898cc234fae84d3fe61e50bb15.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/chap11-c9443ba50f32639f1b4da9ea31d63ca928f2c43dd729ddb42ce8ce46181b38f9.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/chap12-438b5d661bcd8bf66d41a94bcf0029f138041ab2f3c760ea17127b3b18244cc2.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/mantra-3a93dfd2e1ba2a11b09d35f24279166f82263c6d3eba34b1cfa67fafd865ebf1.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/chapters-4dda82a489c6829ff8eeddae76c557ea4a52143567cbc97def2a966c6db39445.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/date-9a03afb835cd1ac7d85f0a4202d52e91be326484bd8d25eb007ee20f7952b9c2.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/comingsoon-51f8dfa816ca5922172ff97c17645bc645191092378893932a08479851a32866.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/assets/Logo-41332b290ca8a6ad94a69454c4597cba5bee687f9a464e14885ae161176b6c68.png" for ::1 at 2016-07-08 19:08:40 -0400
+
+
+Started GET "/contact" for ::1 at 2016-07-08 19:08:52 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 236ms (Views: 233.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 19:09:01 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ht1rUSu160LVa9TuzPuJSbE3BTods7Cxw/yQfDA69Duka6pU7+l1JSOi9kY18SxeJrUTGXCJG3Fd5UYab1NGuw==", "message"=>{"name"=>"Jibron Harris", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"tester\r\nfgdgdfg"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 166.0ms
+
+Sent mail to jibron.harris@gmail.com (2011.1ms)
+Date: Fri, 08 Jul 2016 19:09:01 -0400
+From: Jibron.Harris@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <5780328da54c8_8e8329b92c84521@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+tester
+fgdgdfg
+Completed 500 Internal Server Error in 2191ms (ActiveRecord: 0.0ms)
+
+Errno::ECONNREFUSED (No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 25):
+  app/controllers/messages_controller.rb:11:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (58.0ms)
+
+
+Started POST "/__web_console/repl_sessions/b43c2b2a50734c8a1e092b08d3715a34/trace" for ::1 at 2016-07-08 19:13:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-08 19:29:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (385.0ms)
+Completed 200 OK in 652ms (Views: 640.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-08 19:29:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 190ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-07-08 19:29:11 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 238ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2016-07-08 19:29:21 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pOrVhJC9KFyhWOftXEeHSLbDf129ic/CyA3oeBmH0aseXBSBVOG2O1eRxUWlTSJfIUFpftCzZAJWFD4eRu5jKw==", "message"=>{"name"=>"Testy Tester", "email"=>"Jibron.Harris@gmail.com", "subject"=>"Testing", "content"=>"Test\r\n"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 165.0ms
+
+Sent mail to jibron.harris@gmail.com (424.0ms)
+Date: Fri, 08 Jul 2016 19:29:21 -0400
+From: Jibron.Harris@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <57803751696d6_31d032210a025681@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test
+
+Completed 500 Internal Server Error in 608ms (ActiveRecord: 0.0ms)
+
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  app/controllers/messages_controller.rb:11:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (58.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 19:30:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1005.1ms)
+Completed 200 OK in 1519ms (Views: 1502.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 19:30:07 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 244ms (Views: 244.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2016-07-08 19:30:09 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 272ms (Views: 265.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 19:30:19 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5sxIzzj83+2p669f8Ugf9oth+aUcYqzdpaB1cuZwjbFceonK/KBBil8ijfcIQrrhHOPvhnFYBx07uaMUuRk/MQ==", "message"=>{"name"=>"Testy Tester", "email"=>"J2Jibbi@gmail.com", "subject"=>"Testing", "content"=>"teseresfsd"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 173.0ms
+
+Sent mail to jibron.harris@gmail.com (419.0ms)
+Date: Fri, 08 Jul 2016 19:30:20 -0400
+From: J2Jibbi@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <5780378c2cf7e_2a0832df0cc56265@Jibron-PC.mail>
+Subject: Testing
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+teseresfsd
+Completed 500 Internal Server Error in 610ms (ActiveRecord: 0.0ms)
+
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbtw
+):
+  app/controllers/messages_controller.rb:11:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (60.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-08 19:31:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 190ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2016-07-08 19:31:35 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 187ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for ::1 at 2016-07-08 19:31:46 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7VeqaGt+Zyy8a5bTOh4Md+kmF6XgyRFbqsagYEr0QC1X4WttryL5S0qitHvDFKlgfqQBho3zups033YGFZ3yrQ==", "message"=>{"name"=>"Jibron Harris", "email"=>"J2Jibbi@gmail.com", "subject"=>"Testomg ", "content"=>"skdfl;sdf"}, "commit"=>"Send"}
+
+MessageMailer#message_me: processed outbound mail in 2.0ms
+
+Sent mail to jibron.harris@gmail.com (966.1ms)
+Date: Fri, 08 Jul 2016 19:31:46 -0400
+From: J2Jibbi@gmail.com
+To: jibron.harris@gmail.com
+Message-ID: <578037e275766_2a085ca7d945638e@Jibron-PC.mail>
+Subject: Testomg
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+skdfl;sdf
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 970ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-07-08 19:31:47 -0400
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 167ms (Views: 167.0ms | ActiveRecord: 0.0ms)

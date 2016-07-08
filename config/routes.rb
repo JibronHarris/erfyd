@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
+	resources :messages, only: [:new, :create]
+
   root 'welcome#index'
 	
 	get "/products" => "products#index"
 	get "/trilogy" => "products#trilogy"
 	
 	get "/about" => "welcome#about"
-	get "/contact" => "welcome#contact"
+	get "/contact" => "messages#new"
 	
 	get "/members" => "member#index"
 	
