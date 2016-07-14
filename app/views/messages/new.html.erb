@@ -1,0 +1,48 @@
+
+<%= form_for @message do |f| %>
+  <% if @message.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= "#{pluralize(@message.errors.count, "error")} prohibited this message from being sent:" %>
+      </h2>
+
+      <ul>
+        <% @message.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      <ul>
+    </div>
+  <% end %>	
+
+<br><br>			
+	<div class="row">
+		
+		<div class ="medium-6 medium-centered columns">
+			<div class="field">
+				<%= f.label :name %>
+				<%= f.text_field :name %>
+			</div>
+
+			<div class="field">
+				<%= f.label :email %>
+				<%= f.email_field :email %>
+			</div>
+
+			<div class="field">
+				<%= f.label :subject %>
+				<%= f.text_field :subject %>
+			</div>
+
+			<div class="field">
+				<%= f.label :content %>
+				<%= f.text_area :content, rows: "5" %>
+			</div>
+
+			<center>
+			<div class="actions">
+				<%= f.submit 'Send', class: 'button' %>
+			</div>
+			</center>
+		</div>				
+	</div>		
+<% end %>
