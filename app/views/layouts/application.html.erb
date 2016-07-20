@@ -20,30 +20,33 @@
     </div>
   </div>
   <!-- / logo and ad break -->
-  
 
-  <div class="top-bar" id="main-menu">
-    <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown small-dropdown">
-      <li>
-				<%= link_to "Dick Trilogy", trilogy_path%>
-			</li>
-			<li>
-				<%=link_to("Book Purchase", "https://www.amazon.com/dp/B01IDZJ5KY", :target => "_blank")%>
-			</li>
-			<li>
-				<%= link_to "Members", members_path%>
-			</li>
-			<li>
-				<%= link_to "Merchandise", products_path%>
-			</li>
-			<li>
-				<%= link_to "About Us", about_path%>
-			</li>
-			<li>
-				<%= link_to "Contact", contact_path%>
-			</li>
-			
-    </ul>
+  <div class="top-bar" >
+		<span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon light" type="button" data-toggle></button>
+    </span>
+			<ul class="menu" data-responsive-menu="drilldown medium-dropdown small-dropdown">
+				<div class="menu vertical medium-horizontal expanded medium-text-center"  id="responsive-menu">
+					<li>
+						<%= link_to "Dick Trilogy", trilogy_path%>
+					</li>
+					<li>
+						<%=link_to("Book Purchase", "https://www.amazon.com/dp/B01IDZJ5KY", :target => "_blank")%>
+					</li>
+					<li>
+						<%= link_to "Members", members_path%>
+					</li>
+					<li>
+						<%= link_to "Merchandise", products_path%>
+					</li>
+					<li>
+						<%= link_to "About Us", about_path%>
+					</li>
+					<li>
+						<%= link_to "Contact", contact_path%>
+					</li>
+				</div>
+			</ul>
   </div>
 
     <%= yield %>
