@@ -1,7 +1,7 @@
 
 <%= form_for @message do |f| %>
   <% if @message.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class = "callout primary large" data-closable>
       <h2>
         <%= "#{pluralize(@message.errors.count, "error")} prohibited this message from being sent:" %>
       </h2>
@@ -11,7 +11,12 @@
           <li><%= msg %></li>
         <% end %>
       <ul>
+				
+			<button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+				<span aria-hidden="true">&times;</span>
+			</button>
     </div>
+				
   <% end %>	
 
 <br><br>			

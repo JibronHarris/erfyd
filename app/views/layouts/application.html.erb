@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "ERFYD" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
@@ -14,17 +14,13 @@
   <body>
   <!-- logo and ad break -->
   <div class="row">
-    <div class="medium-4 columns">
-			<%= link_to image_tag("Logo.png"), root_url, method: :get %>
-    </div>
-    <div class="medium-8 columns">
-      <img src="http://placehold.it/900x175&text=Responsive Ads - ZURB Playground/333" alt="advertisement for deep fried Twinkies"> 
+
+    <div class="medium-8 medium-centered columns">
+      <%= link_to image_tag("Logo2.png"), root_url, method: :get %>
     </div>
   </div>
   <!-- / logo and ad break -->
   
-   <br>
-
 
   <div class="top-bar" id="main-menu">
     <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown small-dropdown">
@@ -32,7 +28,7 @@
 				<%= link_to "Dick Trilogy", trilogy_path%>
 			</li>
 			<li>
-				<a href="https://www.amazon.com/dp/B01IDZJ5KY">Book Purchase</a>
+				<%=link_to("Book Purchase", "https://www.amazon.com/dp/B01IDZJ5KY", :target => "_blank")%>
 			</li>
 			<li>
 				<%= link_to "Members", members_path%>
@@ -53,4 +49,17 @@
     <%= yield %>
 
   </body>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="row full-width">
+		
+		<%=link_to(image_tag("facebook.png"), "https://www.facebook.com/Eat-Right-For-Your-Dick-900722053387341/", :target => "_blank")%>&nbsp;
+		<%=link_to(image_tag("instagram.png"), " https://www.instagram.com/eatrightforyourdick/", :target => "_blank")%>&nbsp;
+		<%=link_to(image_tag("twitter.png"), "https://twitter.com/ERFYDick", :target => "_blank")%>&nbsp;
+
+  </div>
+</footer>
+	
 </html>
