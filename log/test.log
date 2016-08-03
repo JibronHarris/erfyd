@@ -369,3 +369,204 @@ bai
 Redirected to http://test.host/messages/new
 Completed 302 Found in 182ms (ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+
+MessageMailer#message_me: processed outbound mail in 142.0ms
+
+Sent mail to eatrightforyourdick@gmail.com (13.0ms)
+Date: Wed, 03 Aug 2016 15:48:48 -0400
+From: cornholio@example.com
+To: eatrightforyourdick@gmail.com
+Message-ID: <57a24aa0c4a3_1774f2a1d484956@Jibron-PC.mail>
+Subject: hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+bai
+Redirected to http://test.host/messages/new
+Completed 302 Found in 166ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3838.2ms)
+Completed 200 OK in 3851ms (Views: 3851.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 0.0ms
+
+Sent mail to eatrightforyourdick@gmail.com (2.0ms)
+Date: Wed, 03 Aug 2016 15:48:51 -0400
+From: cornholio@example.com
+To: eatrightforyourdick@gmail.com
+Message-ID: <57a24aa3e2361_1774f2a1d4850a6@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (384.0ms)
+Completed 200 OK in 399ms (Views: 399.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+
+MessageMailer#message_me: processed outbound mail in 140.0ms
+
+Sent mail to eatrightforyourdick@gmail.com (11.0ms)
+Date: Wed, 03 Aug 2016 15:50:32 -0400
+From: cornholio@example.com
+To: eatrightforyourdick@gmail.com
+Message-ID: <57a24b084f2cf_2bec3721d470892@Jibron-PC.mail>
+Subject: hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+bai
+Redirected to http://test.host/messages/new
+Completed 302 Found in 162ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 0.0ms
+
+Sent mail to eatrightforyourdick@gmail.com (2.0ms)
+Date: Wed, 03 Aug 2016 15:50:32 -0400
+From: cornholio@example.com
+To: eatrightforyourdick@gmail.com
+Message-ID: <57a24b08515f8_2bec3721d47097a@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+MessagesControllerTest: test_succesful_post
+-------------------------------------------
+Processing by MessagesController#create as HTML
+  Parameters: {"message"=>{"name"=>"cornholio", "email"=>"cornholio@example.com", "subject"=>"hi", "content"=>"bai"}}
+
+MessageMailer#message_me: processed outbound mail in 148.0ms
+
+Sent mail to eatrightforyourdick@gmail.com (11.0ms)
+Date: Wed, 03 Aug 2016 15:51:33 -0400
+From: cornholio@example.com
+To: eatrightforyourdick@gmail.com
+Message-ID: <57a24b4535a8a_36c31a1cc17084@Jibron-PC.mail>
+Subject: hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+bai
+Redirected to http://test.host/messages/new
+Completed 302 Found in 176ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (393.0ms)
+Completed 200 OK in 407ms (Views: 407.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+MessageTest: test_attributes_can_not_be_blank
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+MessageTest: test_responds_to_name,_email,_subject_and_content
+--------------------------------------------------------------
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+MessageTest: test_should_accept_valid_attributes
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------
+MessageMailerTest: test_message_me
+----------------------------------
+
+MessageMailer#message_me: processed outbound mail in 0.0ms
+
+Sent mail to eatrightforyourdick@gmail.com (1.0ms)
+Date: Wed, 03 Aug 2016 15:51:33 -0400
+From: cornholio@example.com
+To: eatrightforyourdick@gmail.com
+Message-ID: <57a24b459e66b_36c31a1cc17164@Jibron-PC.mail>
+Subject: Hi
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello from the internet
+  [1m[35m (0.0ms)[0m  rollback transaction

@@ -5,3 +5,5 @@ e6f5b6a5eb9890a6d2f41706e45e0fc374e44a0f 663553d9785fb3741c3b246d8d0d776ef508b5c
 35ae488b425049a7b70243ee559bade9667eef30 f7f44017bf03f79355f1b198415ec0a28f1c35b4 JibronHarris <Jibron.harris@gmail.com> 1469041554 -0400	commit: first draft
 f7f44017bf03f79355f1b198415ec0a28f1c35b4 e434f5a8dd1167d6cb9e65f2109813a07df930cf JibronHarris <Jibron.harris@gmail.com> 1469044771 -0400	commit: fixed top-bar
 e434f5a8dd1167d6cb9e65f2109813a07df930cf 8c160662a7a2d8c047ef612ee23627707eb89fcd JibronHarris <Jibron.harris@gmail.com> 1469045612 -0400	commit: fixed top-bar error
+8c160662a7a2d8c047ef612ee23627707eb89fcd 721d01d2fa0485f9d5fe1da07cea64225d901630 JibronHarris <Jibron.harris@gmail.com> 1469859932 -0400	commit: Changed font
+721d01d2fa0485f9d5fe1da07cea64225d901630 5fb118eb7cd9b040493ab422e45b02d4a1b67d84 JibronHarris <Jibron.harris@gmail.com> 1469860096 -0400	commit: Changed font with correct gem file
