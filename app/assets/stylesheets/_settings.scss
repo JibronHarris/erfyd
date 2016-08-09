@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: "Oswald";
-  src: url(/assets/Oswald-Regular.ttf) format("truetype");
+  src: asset-url("Oswald-Regular.ttf") format("truetype");
 }
 
 // 1. Global
@@ -539,7 +539,7 @@ $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
 
-$titlebar-background: $black;
+$titlebar-background: $light-gray;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
@@ -564,7 +564,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $black;
+$topbar-background: $medium-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
