@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Shoppe::Engine => "/shoppe"
 	resources :messages, only: [:new, :create]
 
   root 'welcome#index'
@@ -10,6 +11,10 @@ Rails.application.routes.draw do
 	get "/contact" => "messages#new"
 	
 	get "/members" => "member#index"
+	
+	get "product/:permalink", to: "products#show", as: "product"
+	post "product/: permalink", to: "products#buy", as: "buy"
+
 	
 
   # The priority is based upon order of creation: first created -> highest priority.
