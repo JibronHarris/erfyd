@@ -66,6 +66,24 @@
 		
 		
 	</div>
+	<div class="row expanded">
+		<div class="row small-up-3 medium-up-3 large-up-6 ">
+				<% @products.each do |category, products| %>
+
+						<% products.each do |product| %>	
+							<div class="column">
+								<%=link_to(image_tag(product.default_image.path), product_path(product.permalink), method: :get)%>
+							</div>				
+						<% end %>
+
+
+				<% end %>
+		</div>
+
+	</div>
+
+
+
 	<hr>
 
 	<center><h1>Needed Essentials</h1></center>
@@ -185,29 +203,12 @@
 			
 			</div>
 			
-			<div class="column">
-				<%= image_tag("protractor.png")%>
-			</div>
-			
+
 
 			
 	</div>
 			
-
 </div>
 	
-
-<% @products.each do |category, products| %>
-  <h3><%= category.name %></h3>
-  <ul>
-    <% products.each do |product| %>
-    <li>
-      <h4><%= link_to product.name, product_path(product.permalink) %></h4>
-      <p><%= product.short_description %></p>
-      <p><b>Price:</b> <%= number_to_currency product.price %></p>
-    </li>
-    <% end %>
-  </ul>
-<% end %>
 	
 

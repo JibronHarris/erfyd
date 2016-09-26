@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -47,4 +47,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'foundation-rails'
 
-gem 'shoppe', '~> 1.0'
+gem 'shoppe', '~> 1.1.2'
+
+gem "shoppe-stripe", require: "shoppe/stripe"
+gem 'shoppe-paypal'
+
