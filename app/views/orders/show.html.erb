@@ -1,4 +1,13 @@
-<p><%= link_to 'Empty basket', basket_path, :method => :delete %></p>
-<%= link_to "Checkout", checkout_path %>
-<h2>Your basket</h2>
-<%= render 'items', :order => current_order %>
+
+<div class="row">
+	<div class="large-8 large-centered columns">
+	
+		<center><h2>Your basket</h2></center>
+		<%= render 'items', :order => current_order %>
+		
+		<p><%= link_to 'Empty basket', basket_path, :method => :delete %></p>
+		<%= link_to "Checkout", checkout_path %>
+	</div>
+
+	
+</div>
